@@ -1,31 +1,49 @@
 {
-    "name": "02-ts-basics",
-    "private": true,
-    "version": "0.0.0",
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "tsc -b && vite build",
-        "lint": "eslint .",
-        "preview": "vite preview"
+  "name": "02-ts-basics",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "modern-normalize": "^3.0.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react-swc": "^4.3.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "vite": "^7.3.1"
+  },
+  "overrides": {
+    "rollup": "^4.59.0",
+    "picomatch": "^4.0.4",
+    "flatted": "^3.4.2",
+    "ajv": "6.14.0",
+    "js-yaml": "^4.1.1",
+    "brace-expansion": "^1.1.13",
+    "eslint": {
+      "minimatch": "^3.1.5"
     },
-    "dependencies": {
-        "modern-normalize": "^3.0.1",
-        "react": "^19.1.1",
-        "react-dom": "^19.1.1",
-        "react-icons": "^5.5.0"
+    "@eslint/config-array": {
+      "minimatch": "^3.1.5"
     },
-    "devDependencies": {
-        "@eslint/js": "^9.33.0",
-        "@types/react": "^19.1.10",
-        "@types/react-dom": "^19.1.7",
-        "@vitejs/plugin-react-swc": "^4.0.0",
-        "eslint": "^9.33.0",
-        "eslint-plugin-react-hooks": "^5.2.0",
-        "eslint-plugin-react-refresh": "^0.4.20",
-        "globals": "^16.3.0",
-        "typescript": "~5.8.3",
-        "typescript-eslint": "^8.39.1",
-        "vite": "^7.1.2"
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^9.0.8",
+      "brace-expansion": "^2.0.3"
     }
+  }
 }
